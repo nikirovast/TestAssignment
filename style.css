@@ -40,7 +40,6 @@ body {
 .choose {
     margin-top: 50px;
     font-weight: 500;
-
 }
 
 .choose select {
@@ -58,7 +57,8 @@ body {
 .choose .choose_elem {
     display: inline-block;
 }
-.choose_elem.left{
+
+.choose_elem.left {
     margin-right: 20px;
 }
 
@@ -80,12 +80,13 @@ body {
 .event_name {
     left: 53px;
     bottom: 40px;
+    font-weight: 900;
 }
 
 .logo {
     top: 40px;
-    //left: 545px;
-    right:40px;
+/ / left: 545 px;
+    right: 40px;
 }
 
 .event_date {
@@ -97,10 +98,6 @@ body {
     border-radius: 0.25rem;
 }
 
-.event_name {
-    font-weight: 900;
-
-}
 
 .events {
     margin-top: 50px;
@@ -110,64 +107,44 @@ body {
     grid-gap: 40px;
 }
 
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
 
-/** {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-html {
-    font-size: 12px;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-}
-img, object{
-    max-width: 100%;
-}
-.inner_block{
-    width: 1600px;
-    height: 1378px;
-border: 1px solid red;
-    background: #F0F3FF;
-}
+    .events {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
-.info_cont{
+    .choose select {
+        padding: 8px;
+    }
 
-}
-.info_cont h1{
-    font-weight: 900;
-    font-size: 1.5rem;
-    color: #2E282C;
-}
+    .event_date {
+        top: 30px;
+        left: 30px;
+        padding: 9px 13px 5px 13px;
+        border: 1px solid white;
+    }
 
-.choose select, label{
-    font-weight: 500;
-    font-size: 0.75rem;
-}
-.choose select{
-    background-color: #FFFFFF;
-    border: 1px solid #444444;
-    box-sizing: border-box;
-    border-radius: 0.125rem;
-    padding: 0.5rem;
-}
+    .event_name {
+        left: 30px;
+        bottom: 30px;
+    }
 
-.logo{
-    background-color: red;
-}
-.img{
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    font-style: normal;
-    height: auto;
-}
+    .logo {
+        top: 25px;
+        right: 30px;
+        height: 16px;
+    }
 
-.pic{
-    width:100%;
-    position: relative;
+    .choose {
+        margin-top: 20px;
+    }
+
+    .events {
+        margin-top: 30px;
+    }
 }
-.event_name{
-    position: absolute;
-    top: 100px;
-    left: 10px;
-}*/
