@@ -12,13 +12,10 @@ html {
 
 body {
     background: #F0F3FF;
-
 }
 
 .outer-block {
     background: #F0F3FF;
-
-
 }
 
 .inner_block {
@@ -85,7 +82,6 @@ body {
 
 .logo {
     top: 40px;
-/ / left: 545 px;
     right: 40px;
 }
 
@@ -98,14 +94,14 @@ body {
     border-radius: 0.25rem;
 }
 
-
 .events {
-    margin-top: 50px;
+    margin-top: 30px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
 }
+
 
 @media screen and (max-width: 767px) {
     html {
@@ -145,14 +141,27 @@ body {
     .logo {
         top: 25px;
         right: 30px;
-        height: 16px;
+    / / height: 16 px;
     }
 
     .choose {
         margin-top: 20px;
     }
 
+    .inner_block {
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
     .events {
-        margin-top: 30px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        top: 40px;
+        left: 545px;
     }
 }
