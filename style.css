@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: #F0F3FF;
+
+}
+
+.outer-block {
+    width: 1vw;
+    background: #F0F3FF;
+
+
+}
+
+.inner_block {
+    margin: 80px auto;
+    width: 90%;
+    background-color: white;
+}
+
+.info_cont {
+    padding: 7%;
+
+}
+
+.info_cont h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.choose {
+    margin-top: 50px;
+    font-weight: 500;
+
+}
+
+.choose select {
+    background-color: #FFFFFF;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    padding: 9px 51px 8px 22px;
+}
+
+.choose {
+    display: flex;
+}
+
+.choose .choose_elem {
+    display: inline-block;
+}
+.choose_elem.left{
+    margin-right: 20px;
+}
+
+.pic {
+    max-width: 100%;
+}
+
+.img {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.event_name, .logo, .event_date {
+    position: absolute;
+
+}
+
+.event_name {
+    left: 53px;
+    bottom: 40px;
+}
+
+.logo {
+    top: 40px;
+    //left: 545px;
+    right:40px;
+}
+
+.event_date {
+    top: 49px;
+    left: 53px;
+    border: 2px solid white;
+    padding: 9px 13px 5px 13px;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+}
+
+.event_name {
+    font-weight: 900;
+
+}
+
+.events {
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+
+/** {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}
+img, object{
+    max-width: 100%;
+}
+.inner_block{
+    width: 1600px;
+    height: 1378px;
+border: 1px solid red;
+    background: #F0F3FF;
+}
+
+.info_cont{
+
+}
+.info_cont h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #2E282C;
+}
+
+.choose select, label{
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+.choose select{
+    background-color: #FFFFFF;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+}
+
+.logo{
+    background-color: red;
+}
+.img{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    height: auto;
+}
+
+.pic{
+    width:100%;
+    position: relative;
+}
+.event_name{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}*/
